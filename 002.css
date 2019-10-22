@@ -1,0 +1,396 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-transform: capitalize;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.header {
+  background-color: #3B3E41;
+  height: 76px;
+  -webkit-box-shadow: 0px 13px 5px 0px rgba(75, 78, 81, 0.94);
+  -moz-box-shadow: 0px 13px 5px 0px rgba(75, 78, 81, 0.94);
+  box-shadow: 0px 13px 5px 0px rgba(75, 78, 81, 0.94);
+}
+.header nav.menu {
+  width: 959px;
+  margin: auto;
+}
+.header nav section.left {
+  float: left;
+  margin-top: 20px;
+}
+.header nav section.left h1 {
+  color: white;
+  font-family: Vivaldi;
+}
+.header nav ul.right {
+  float: right;
+}
+.header nav ul.right li {
+  display: inline-block;
+  padding: 32px 20px 20px 20px;
+  border-left: 1px solid black;
+}
+.header nav ul.right li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.header nav ul.right li:nth-child(6) {
+  border-right: 1px black solid;
+}
+.header nav ul.right li:hover {
+  background-color: #36383B;
+}
+.header nav ul.right li:hover a {
+  color: #4a7377;
+}
+.header div.container {
+  width: 959px;
+  margin: auto;
+}
+.header div.container ul.slider {
+  width: 959px;
+  margin: auto;
+  margin-top: 22px;
+}
+.header div.container ul.slider li {
+  display: none;
+}
+.header div.container ul.slider li.active {
+  display: inline-block;
+  position: relative;
+}
+.header div.container ul.slider li div.slide1 {
+  width: 959px;
+  height: 400px;
+  background-color: #898B86;
+}
+.header div.container ul.slider li div.slide2 {
+  width: 959px;
+  height: 400px;
+  background-color: #ff3e57;
+}
+.header div.container ul.slider li div.slide3 {
+  width: 959px;
+  height: 400px;
+  background-color: #ffa660;
+}
+.header div.container section.control-button {
+  width: 959px;
+  display: inline;
+  position: absolute;
+  bottom: 280px;
+}
+.header div.container section.control-button button.button-right {
+  border: none;
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  float: right;
+  margin-right: 8px;
+  background-color: white;
+  outline: none;
+}
+.header div.container section.control-button button.button-right i.fa {
+  color: gray;
+}
+.header div.container section.control-button button.button-left {
+  border: none;
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin-left: 8px;
+  background-color: white;
+  outline: none;
+}
+.header div.container section.control-button button.button-left i.fa {
+  color: gray;
+}
+.header div.container ul.slider li div.slide1 div.box1 {
+  width: 70px;
+  height: 90px;
+  background: #303537;
+  position: absolute;
+  left: 320px;
+  top: 198px;
+}
+.header div.container ul.slider li div.slide1 div.box2 {
+  width: 70px;
+  height: 60px;
+  background-color: #303537;
+  position: absolute;
+  left: 410px;
+  top: 228px;
+}
+.header div.container ul.slider li div.slide1 div.box3 {
+  width: 0;
+  height: 0;
+  border-bottom: 29px solid #303537;
+  border-right: 34px solid transparent;
+  position: absolute;
+  left: 446px;
+  top: 198px;
+}
+.header div.container ul.slider li div.slide1 div.box4 {
+  width: 0;
+  height: 0;
+  border-bottom: 29px solid #303537;
+  border-left: 34px solid transparent;
+  position: absolute;
+  left: 411px;
+  top: 198px;
+}
+.header div.container ul.slider li div.slide1 img.last {
+  margin-left: 496px;
+  margin-top: 20px;
+}
+.header div.container h1.onvan {
+  text-align: center;
+  margin-top: 25px;
+}
+.header div.container p.parageraf {
+  color: gray;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.header div.container ul.button-center {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.header div.container ul li {
+  display: inline-block;
+}
+.header div.container ul li a {
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  text-decoration: none;
+  color: black;
+  padding: 10px 28px;
+}
+.header div.container ul li a:nth-child(1) {
+  border-left: 1px solid gray;
+}
+.header div.container ul li a:nth-child(1):hover {
+  color: #7abaff;
+  border-bottom: none;
+}
+.header div.container div.slidebar1 {
+  width: 959px;
+  height: 380px;
+}
+.header div.container div.slidebar1 section.design-left {
+  float: left;
+  width: 45%;
+  margin-top: 32px;
+}
+.header div.container div.slidebar1 section.design-right {
+  width: 55%;
+  float: right;
+  margin-top: 25px;
+}
+.header div.container div.slidebar1 p.design-parageraf {
+  color: gray;
+  font-size: small;
+  margin-top: 15px;
+}
+.header div.container div.slidebar1 p i.fa {
+  color: #0dffb2;
+  margin-right: 8px;
+}
+.header div.container h3.onvan2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #454545;
+}
+.header div.container p.design-parageraf2 {
+  text-align: center;
+  color: gray;
+}
+.header div.container div.slidebar2 {
+  height: 520px;
+}
+.header div.container div.slidebar2 img {
+  width: 305px;
+  height: 250px;
+}
+.header div.container div.slidebar2 img.img-top {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.header div.container div.slidebar2 img.img-bottom {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.header div.container section.gallery {
+  width: 46%;
+  margin-top: 15px;
+  display: inline-block;
+}
+.header div.container section.gallery p.gallery-parageraf {
+  color: gray;
+  font-size: small;
+  padding-left: 54px;
+}
+.header div.container section.gallery p.gallery-comments {
+  color: #7abaff;
+  font-size: small;
+  padding-left: 54px;
+}
+.header div.container section.gallery div.circle {
+  width: 50px;
+  height: 50px;
+  background: #b2b2b2;
+  border-radius: 50%;
+  float: left;
+  margin-right: 8px;
+}
+.header div.container section.gallery div.circle p.date {
+  font-size: 17px;
+  display: inline-block;
+  padding-left: 12px;
+}
+.header div.container section.gallery-left {
+  float: left;
+}
+.header div.container section.gallery-right {
+  float: right;
+}
+.header div.container div.icon h1 {
+  font-size: 70px;
+  color: gray;
+  float: left;
+  padding: 30px 34px;
+  font-family: Vivaldi;
+}
+.header div.container div.icon i.fa {
+  color: gray;
+  font-size: 70px;
+  padding: 30px 34px;
+}
+.header div.footer {
+  width: 100%;
+  display: inline-block;
+  background-color: #3B3E41;
+}
+.header div.footer h3.footer-onvan {
+  color: #f0f0f0;
+}
+.header div.footer p.footer-parageraf {
+  color: gray;
+  font-size: x-small;
+  text-align: justify;
+}
+.header div.footer div.container img {
+  width: 200px;
+}
+.header div.footer div.container div.footer1 {
+  width: 24%;
+  display: inline-block;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 73px;
+}
+.header div.footer div.container div.footer2 {
+  width: 22%;
+  display: inline-block;
+  padding-right: 50px;
+  position: relative;
+  bottom: 93px;
+}
+.header div.footer div.container div.footer2 p.footer-parageraf i.fa {
+  font-size: 15px;
+  margin-right: 8px;
+}
+.header div.footer div.container div.footer2 span {
+  color: #7EA1B5;
+  font-size: x-small;
+}
+.header div.footer div.container div.footer3 {
+  width: 30%;
+  display: inline-block;
+  padding-right: 50px;
+  position: relative;
+  bottom: 191px;
+}
+.header div.footer div.container div.footer4 {
+  width: 22%;
+  display: inline-block;
+  margin-top: 14px;
+}
+.header div.footer div.container div.footer4 label input.input {
+  padding: 4px 30px;
+  margin-bottom: 10px;
+  border: none;
+}
+.header div.footer div.container div.footer4 label input.input1 {
+  background-color: #2A2D2F;
+}
+.header div.footer div.container div.footer4 label input.input2 {
+  background-color: #2F3234;
+}
+.header div.footer div.container div.footer4 label input.input3 {
+  padding: 50px 30px;
+  background-color: #2A2D2F;
+  border: none;
+  margin-bottom: 10px;
+}
+.header div.footer div.container div.footer4 label input.submit {
+  padding: 8px 35px;
+  background-color: #7290A3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.header div.end-footer {
+  background-color: #2A2D2F;
+  width: 100%;
+}
+.header div.end-footer div.icon2 {
+  float: right;
+  margin: 15px 0;
+}
+.header div.end-footer div.icon2 i.fa {
+  padding: 6px 10px;
+  color: white;
+  font-size: 15px;
+}
+.header div.end-footer div.icon2 i.fa-feed {
+  background-color: #E7872D;
+}
+.header div.end-footer div.icon2 i.fa-facebook {
+  background-color: #3A5AA0;
+}
+.header div.end-footer div.icon2 i.fa-twitter {
+  background-color: #45B0E1;
+}
+.header div.end-footer div.icon2 i.fa-ge {
+  background-color: #D97BB1;
+}
+.header div.end-footer div.icon2 i.fa-pinterest-p {
+  background-color: #CB1F2A;
+}
+.header div.end-footer div.icon2 i.fa-linkedin {
+  background-color: #5490E4;
+}
+.header div.end-footer p.end {
+  color: gray;
+  padding: 15px 0;
+  font-size: small;
+}
+.header div.end-footer p.end i {
+  padding: 0 6px;
+}
+
+/*# sourceMappingURL=002.css.map */
